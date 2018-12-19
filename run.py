@@ -6,6 +6,7 @@ import connect_ftp
 import compressing
 #
 s = sched.scheduler(time.time , time.sleep)
+waktu_eksekusi = 1
 print("[*] mempersiapkan...")
 
 
@@ -24,12 +25,12 @@ def main():
     send   = connect_ftp.connect(configure.setup())
 
     send.upload(file)
-
+    s.enter(waktu_eksekusi , 1 , main , ())
 
 def test(sc):
     print('ready')
-    s.enter(1 , 1 , oke , ("sc" ,))
+    s.enter(waktu_eksekusi , 1 , oke , ("sc" ,))
 
 if __name__ == '__main__':
-    s.enter(1 , 1 , main , ())
+    s.enter(waktu_eksekusi , 1 , main , ())
     s.run()
