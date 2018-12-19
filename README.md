@@ -41,3 +41,9 @@ variabel path digunakan untuk menentukan file mana yang akan di upload
 variabel save_to di gunakan untuk menentukan dimana file akan di upload
 
 variabel waktu_eksekusi di gunakan untuk menentukan berapa lama waktu interval file akan di upload
+
+## Link
+
+* [Facebook](https://www.facebook.com/arsalan.diponegoro.7) - Facebook
+* [Blog](https://blog.tripoloski.ccug.gunadarma.ac.id/) - Personal Blog Saya
+* [Instagram](https://www.instagram.com/thegreat_arsalan/) - Personal Instagram Saya
